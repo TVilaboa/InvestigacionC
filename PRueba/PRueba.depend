@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1379098696 source:c:\users\toto\projects\investigacionc\prueba\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lightbulb.h"
+
+1379083485 c:\users\toto\projects\investigacionc\prueba\queue.h
+
+1379084876 c:\users\toto\projects\investigacionc\prueba\stack.h
+	<stdbool.h>
+	<assert.h>
+
+1379083574 c:\users\toto\projects\investigacionc\prueba\tree.h
+
+1379105547 c:\users\toto\projects\investigacionc\prueba\lightbulb.h
+	"tree.h"
+
+1379111315 source:c:\users\toto\projects\investigacionc\prueba\rbtree.c
+	"rbtree.h"
+	<assert.h>
+	<stdlib.h>
+
+1379099077 c:\users\toto\projects\investigacionc\prueba\rbtree.h
+
+1379111377 source:c:\users\toto\projects\investigacionc\prueba\testmain.c
+	"rbtree.h"
+	<stdio.h>
+	<assert.h>
+	<stdlib.h>
+	"lightbulb.h"
+
