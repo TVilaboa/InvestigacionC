@@ -12,8 +12,7 @@
 
 1379083574 c:\users\toto\projects\investigacionc\prueba\tree.h
 
-1379105547 c:\users\toto\projects\investigacionc\prueba\lightbulb.h
-	"tree.h"
+1379381096 c:\users\toto\projects\investigacionc\prueba\lightbulb.h
 
 1379111315 source:c:\users\toto\projects\investigacionc\prueba\rbtree.c
 	"rbtree.h"
@@ -27,5 +26,58 @@
 	<stdio.h>
 	<assert.h>
 	<stdlib.h>
+	"lightbulb.h"
+
+1379380395 source:c:\users\toto\projects\investigacionc\prueba\bst.c
+	<stdlib.h>
+	"bst.h"
+
+1379381555 c:\users\toto\projects\investigacionc\prueba\bst.h
+
+1379381686 source:c:\users\toto\projects\investigacionc\prueba\btree.c
+	<stdlib.h>
+	<stdio.h>
+
+1379382712 source:c:\users\toto\projects\investigacionc\prueba\bintreemb.c
+
+1379382976 source:c:\users\toto\projects\investigacionc\prueba\datastruct\examples\binarytree.c
+	<stdio.h>
+	<string.h>
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\binarytree.h"
+
+1379383348 c:\users\toto\projects\investigacionc\prueba\datastruct\include\binarytree.h
+	<stddef.h>
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\mbcommon.h"
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\iterator.h"
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Src\stack.c"
+
+1295716362 c:\users\toto\projects\investigacionc\prueba\datastruct\include\mbcommon.h
+	<stdio.h>
+
+1379383064 c:\users\toto\projects\investigacionc\prueba\datastruct\include\iterator.h
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\mbcommon.h"
+
+1379383188 source:c:\users\toto\projects\investigacionc\prueba\datastruct\src\binarytree.c
+	<stdlib.h>
+	<stdio.h>
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\stack.h"
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\binarytree.h"
+
+1379383167 c:\users\toto\projects\investigacionc\prueba\datastruct\include\stack.h
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\mbcommon.h"
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\iterator.h"
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\slist.h"
+
+1379383167 c:\users\toto\projects\investigacionc\prueba\datastruct\include\slist.h
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\mbcommon.h"
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\iterator.h"
+
+1379383375 c:\users\toto\projects\investigacionc\prueba\datastruct\src\stack.c
+	<stdlib.h>
+	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\stack.h"
+
+1379386502 source:c:\users\toto\projects\investigacionc\prueba\treeesssss.c
+	<stdlib.h>
+	<stdio.h>
 	"lightbulb.h"
 
