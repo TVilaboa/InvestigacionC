@@ -1,6 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include "lightbulb.h"
+#include "List.h"
 struct bin_tree {
 struct lightbulb data;
 struct bin_tree * right, * left;
@@ -62,10 +63,10 @@ void print_postorder(node * tree)
 }
 
 void printlightBulb(node * tree){
-    printf("Code:%s\n",tree->data.code);
+    printf("\nCode:%s\n",tree->data.code);
         printf("Watts:%d\n",tree->data.watts);
         printf("Type:%d\n",tree->data.type);
-        printf("Stock:%d\n",tree->data.cant);
+        printf("Stock:%d\n\n",tree->data.cant);
 }
 
 void deltree(node * tree)
@@ -103,11 +104,20 @@ void main()
 {
     node *root;
     node *tmp;
-    //int i;
-
+    List mylist;
+    initlist(&mylist);
     root = NULL;
+    int n=length(mylist);
+    int i=0;
+    for(i;i<n;i++){
+
+
+        insert(&root,getitem(mylist,i));
+    }
     /* Inserting nodes into tree */
     struct lightbulb bulb;
+    createBulb(&bulb);
+    insert(&root, bulb);
     createBulb(&bulb);
     insert(&root, bulb);
 
