@@ -5,6 +5,7 @@ char code[5];
 int watts;
 int type;
 int cant;
+int active;
 } ;
 
 void createBulb(struct lightbulb *bulb){
@@ -16,7 +17,7 @@ void createBulb(struct lightbulb *bulb){
      scanf("%d",&bulb->type);
      printf("Enter lightbulb stock. \n");
      scanf("%d",&bulb->cant);
-
+    bulb->active=1;
 }
 
 
