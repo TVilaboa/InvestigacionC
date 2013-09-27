@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="lightbulb.h" />
+		<Unit filename="tree.h" />
 		<Unit filename="treeesssss.c">
 			<Option compilerVar="CC" />
 		</Unit>

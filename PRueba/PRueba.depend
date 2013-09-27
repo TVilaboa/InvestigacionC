@@ -10,7 +10,7 @@
 	<stdbool.h>
 	<assert.h>
 
-1379083574 c:\users\toto\projects\investigacionc\prueba\tree.h
+1380242137 c:\users\toto\projects\investigacionc\prueba\tree.h
 
 1380237433 c:\users\toto\projects\investigacionc\prueba\lightbulb.h
 
@@ -76,11 +76,12 @@
 	<stdlib.h>
 	"C:\Users\Toto\Projects\InvestigacionC\PRueba\dataStruct\Include\stack.h"
 
-1380238850 source:c:\users\toto\projects\investigacionc\prueba\treeesssss.c
+1380242137 source:c:\users\toto\projects\investigacionc\prueba\treeesssss.c
 	<stdlib.h>
 	<stdio.h>
 	"lightbulb.h"
 	"List.h"
+	"tree.h"
 
 1380060276 c:\users\toto\projects\investigacionc\prueba\list.h
 
