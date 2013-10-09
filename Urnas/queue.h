@@ -1,19 +1,24 @@
  #include<stdio.h>
  #include<conio.h>
  #include<stdlib.h>
+
  struct Node
  {
         struct school Data;
         struct Node* next;
  }*rear, *front;
 
-void delQueue()
+int siz=0;
+
+
+node* delQueue()
 {
        struct Node *temp, *var=rear;
       if(var!=NULL)
       {
              rear = rear->next;
-             free(var);
+             siz-=1;
+             return var;
       }
       else
       printf("\nQueue Empty");
@@ -36,6 +41,7 @@ void push(struct school value)
            front=temp;
            front->next=NULL;
      }
+     siz+=1;
 }
 
 void display()
@@ -46,13 +52,16 @@ void display()
            printf("\nElements are as:  ");
            while(var!=NULL)
            {
-                printf("\nCode:%d\n",var->Data.code);
-                printf("Ballot Boxes: %d\n",var->Data.cantboxes);
+                //recorrer arreglo de school
                 var=var->next;
            }
      printf("\n");
      }
      else
      printf("\nQueue is Empty");
+}
+
+int sizeofqueue(){
+    return siz;
 }
 

@@ -6,77 +6,64 @@
 
 int main()
 {
-    /*node *root;
+    front=NULL;
+    struct school centinel;
+    push(centinel); //only way i found to avoid error when queue was refilled after being totally emptied
+    node *root;
     root=NULL;
     int menu=0;
     do{
     addTruck();
-    process();
-    printf("Enter 1 to continue the simulation and enter 2 to finish and print the report./n");
+    process(root);
+    printf("Enter 1 to continue the simulation and enter 2 to finish and print the report.\n");
     scanf("%d",&menu);
-    } while (menu==1);*/
-     int i=0;
-     front=NULL;
-     printf(" \n1. Push to Queue");
-     printf(" \n2. Pop from Queue");
-     printf(" \n3. Display Data of Queue");
-     printf(" \n4. Exit\n");
-     while(1)
-     {
-          printf(" \nChoose Option: ");
-          scanf("%d",&i);
-          switch(i)
-          {
-                case 1:
-                {
-                     struct school school;
-                     printf("\nEnter a valueber to push into Queue: ");
-                     createSchool(&school,1245,1);
+    } while (menu==1);
+    /*struct school school;
+                    int random_number = rand() % 10;
+                     createSchool(&school,(int) random_number,1);
                      push(school);
                      display();
-                     break;
-                }
-                case 2:
-                {
-                     delQueue();
+                     int random_number2 = rand() % 10;
+                     createSchool(&school,(int) random_number2,1);
+                     push(school);
                      display();
-                     break;
-                }
-                case 3:
-                {
-                     display();
-                     break;
-                }
-                case 4:
-                {
-                     exit(0);
-                }
-                default:
-                {
-                     printf("\nwrong choice for operation");
-                }
-          }
-     }
+                     struct Node *var=delQueue();
+                     printf("\nCode:%d\n",var->Data.code);
+                    printf("Ballot Boxes: %d\n",var->Data.cantboxes);*/
+
+
+
 	return 0;
 }
 
 
 
 void addTruck(){
-    double random_number = rand() / (double)RAND_MAX;
-    if(random_number <=0.6){
-        //addtoquee
+    if(rand()%10 <=6){
+            int i=0;
+            for(i;i<300;i++){
+            int random_number = rand() % 9999;
+
+                    struct school school;
+                     createSchool(&school,random_number,1);
+                     push(school);
+
     }
+
+    }
+
 }
 
 void process(node *root){
-    //retrivefromquee
-    int boxes[500];
-    struct school school;
     int i=0;
-    for(i;i<500;i++){
-        createSchool(&school,boxes[i],1);
-        node *tmp;
+    if(sizeofqueue()>0){
+    for(i;i<100;i++){
+
+                    printf("%d",sizeofqueue());
+     struct school school;
+     struct Node *node=delQueue();
+     createSchool(&school,node->Data.code,1);
+        struct  node *tmp;
     tmp = search(&root, school);
     if (tmp)
     {
@@ -87,4 +74,5 @@ void process(node *root){
         insert(&root,school);
     }
     }
+}
 }
