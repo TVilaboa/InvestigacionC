@@ -1,5 +1,17 @@
 # depslib dependency file v1.0
-1353751060 source:c:\users\toto\projects\investigacionc\urnas\main.c
+1381285249 source:c:\users\toto\projects\investigacionc\urnas\main.c
 	<stdio.h>
+	<stdlib.h>
+	"School.h"
+	"tree.h"
+	"queue.h"
+
+1380667397 c:\users\toto\projects\investigacionc\urnas\school.h
+
+1380667413 c:\users\toto\projects\investigacionc\urnas\tree.h
+
+1381285262 c:\users\toto\projects\investigacionc\urnas\queue.h
+	<stdio.h>
+	<conio.h>
 	<stdlib.h>
 

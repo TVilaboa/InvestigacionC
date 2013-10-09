@@ -62,7 +62,7 @@ void print_postorder(node * tree)
 void printschool(node * tree)
 {
 
-    printf("\nCode:%s\n",tree->data.code);
+    printf("\nCode:%d\n",tree->data.code);
     printf("Ballot Boxes: %d\n",tree->data.cantboxes);
 
 
