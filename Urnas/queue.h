@@ -1,10 +1,10 @@
  #include<stdio.h>
  #include<conio.h>
  #include<stdlib.h>
-
+#include "truck.h"
  struct Node
  {
-        struct school Data;
+        struct truck Data;
         struct Node* next;
  }*rear, *front;
 
@@ -24,7 +24,7 @@ node* delQueue()
       printf("\nQueue Empty");
 }
 
-void push(struct school value)
+void push(struct truck value)
 {
      struct Node *temp;
      temp=(struct Node *)malloc(sizeof(struct Node));
@@ -52,7 +52,7 @@ void display()
            printf("\nElements are as:  ");
            while(var!=NULL)
            {
-                //recorrer arreglo de school
+                printf("un truck");
                 var=var->next;
            }
      printf("\n");

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1381294367 source:c:\users\toto\projects\investigacionc\urnas\main.c
+1381646977 source:c:\users\toto\projects\investigacionc\urnas\main.c
 	<stdio.h>
 	<stdlib.h>
 	"School.h"
@@ -10,8 +10,12 @@
 
 1381285391 c:\users\toto\projects\investigacionc\urnas\tree.h
 
-1381293283 c:\users\toto\projects\investigacionc\urnas\queue.h
+1381644531 c:\users\toto\projects\investigacionc\urnas\queue.h
 	<stdio.h>
 	<conio.h>
 	<stdlib.h>
+	"truck.h"
+
+1381647024 c:\users\toto\projects\investigacionc\urnas\truck.h
+	<time.h>
 

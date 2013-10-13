@@ -37,6 +37,7 @@
 		</Unit>
 		<Unit filename="queue.h" />
 		<Unit filename="tree.h" />
+		<Unit filename="truck.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
