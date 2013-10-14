@@ -11,7 +11,7 @@
 int siz=0;
 
 
-node* delQueue()
+struct Node* delQueue()
 {
        struct Node *temp, *var=rear;
       if(var!=NULL)
