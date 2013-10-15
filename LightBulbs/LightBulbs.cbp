@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="PRueba" />
+		<Option title="LightBulbs" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -31,11 +31,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="lightbulb.h" />
-		<Unit filename="tree.h" />
-		<Unit filename="treeesssss.c">
+		<Unit filename="Main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lightbulb.h" />
+		<Unit filename="tree.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

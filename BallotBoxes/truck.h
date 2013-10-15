@@ -5,7 +5,7 @@ struct truck{
     int hours;
 };
 
-
+//create a truck with 500 schools,each with random code between 1 and 9999 and initialize hours value
 void createTruck(int hour){
     struct truck truck;
     int i=0;

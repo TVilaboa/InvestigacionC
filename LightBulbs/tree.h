@@ -76,7 +76,7 @@ void deltree(node * tree)
         free(tree);
     }
 }
-
+//search and return a lightbulb
 node* search(node ** tree, struct lightbulb val)
 {
     if(!(*tree))

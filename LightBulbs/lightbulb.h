@@ -5,7 +5,7 @@ char code[5];
 int watts;
 int type;
 int cant;
-int active;
+int active; //deletion is implemented in logical way
 } ;
 
 void createBulb(struct lightbulb *bulb){

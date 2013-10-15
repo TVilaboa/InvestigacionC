@@ -30,7 +30,7 @@ int main()
 }
 
 
-
+//add truck to queue with 60% prob
 void addTruck(){
     if(rand()%10 <=6){
         createTruck(counter);
@@ -40,7 +40,7 @@ void addTruck(){
     }
 
 
-
+//process the first truck stored in queue and adds the schools from that truck to a tree in order to print them ordenated
 void process(node **root){
     struct truck truck;
     struct Node *node=delQueue();
@@ -69,6 +69,7 @@ void process(node **root){
 }
 }
 
+//print the tree inorden= ordenated report
 void report(node *root){
     print_inorder(root);
 }

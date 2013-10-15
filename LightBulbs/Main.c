@@ -4,7 +4,7 @@
 #include "List.h"
 #include "tree.h"
 
-
+//loads a list ,to load the list u want,code must be modified to create o import that list here
 void main()
 {
     node *root;
@@ -14,15 +14,8 @@ void main()
     int n=length(mylist);
     int i=0;
     for(i;i<n;i++){
-
-
         insert(&root,getitem(mylist,i));
     }
-
-
-
-
-
     int menu;
     do{printf("\n\n1- Add lightbulb \n2- Delete lightbulb \n3- Edit lightbulb \n4- Print tree\n5- Compress tree\n\n");
     scanf("%d",&menu);
@@ -89,6 +82,8 @@ void printtree(node *root){
     print_postorder(root);
 }
 
+
+//compress tree,deletion is implemented in logical way, so tree must be compressed in order to really free the memory
 void compresstree(node *root){
         node *newroot;
         newroot=NULL;

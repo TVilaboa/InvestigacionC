@@ -5,6 +5,7 @@ struct bin_tree
 };
 typedef struct bin_tree node;
 
+//insert
 void insert(node ** tree, struct school val)
 {
     node *temp = NULL;
@@ -68,6 +69,7 @@ void printschool(node * tree)
 
 }
 
+//delete whole tree
 void deltree(node * tree)
 {
     if (tree)
@@ -78,6 +80,7 @@ void deltree(node * tree)
     }
 }
 
+//search a school and returns it
 node* search(node ** tree, struct school val)
 {
     if(!(*tree))

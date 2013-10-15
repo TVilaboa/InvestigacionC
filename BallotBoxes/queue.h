@@ -10,7 +10,7 @@
 
 int siz=0;
 
-
+//equals to pop, delete first value from queue and returns it
 struct Node* delQueue()
 {
        struct Node *temp, *var=rear;
