@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1385859909 source:c:\users\toto\projects\investigacionc\airport\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+	<time.h>
+	<limits.h>
+	<windows.h>
+

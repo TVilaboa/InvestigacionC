@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1386085931 source:c:\documents and settings\administrador\escritorio\airportabc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+	"stack.h"
+
+1385842579 c:\documents and settings\administrador\escritorio\airportabc\queue.h
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"plane.h"
+
+1386085978 c:\documents and settings\administrador\escritorio\airportabc\plane.h
+	<time.h>
+
+1386084855 c:\documents and settings\administrador\escritorio\airportabc\stack.h
+	<stdio.h>
+	<stdlib.h>
+
+1386086340 source:c:\users\toto\projects\investigacionc\airportabc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+	"stack.h"
+
+1385842579 c:\users\toto\projects\investigacionc\airportabc\queue.h
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"plane.h"
+
+1386091319 c:\users\toto\projects\investigacionc\airportabc\plane.h
+	<time.h>
+
+1386084855 c:\users\toto\projects\investigacionc\airportabc\stack.h
+	<stdio.h>
+	<stdlib.h>
+

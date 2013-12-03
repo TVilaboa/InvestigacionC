@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1385568587 source:c:\users\toto\projects\investigacionc\machine simulation\main.c
+	<stdio.h>
+	"emulate.h"
+
+1385579617 c:\users\toto\projects\investigacionc\machine simulation\emulate.h
+	<stdbool.h>
+
+1385580275 source:c:\users\toto\projects\investigacionc\machine simulation\emulate.c
+	<stdlib.h>
+	<stdbool.h>
+	<windows.h>
+	<wincon.h>
+	"emulate.h"
+

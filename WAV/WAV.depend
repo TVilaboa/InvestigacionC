@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1385593822 source:c:\users\toto\projects\investigacionc\wav\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"make_wav.h"
+
+1385593822 c:\users\toto\projects\investigacionc\wav\make_wav.h
+
+1385593822 source:c:\users\toto\projects\investigacionc\wav\make_wav.c
+	<stdio.h>
+	<assert.h>
+	"make_wav.h"
+

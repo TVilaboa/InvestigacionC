@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1385853392 source:c:\users\toto\projects\investigacionc\elevators\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Elevator.h"
+	"call.h"
+	"treeElevators.h"
+	"queueCalls.h"
+
+1385669715 c:\users\toto\projects\investigacionc\elevators\elevator.h
+
+1385667433 c:\users\toto\projects\investigacionc\elevators\call.h
+
+1385671008 c:\users\toto\projects\investigacionc\elevators\treeelevators.h
+
+1385853392 c:\users\toto\projects\investigacionc\elevators\queuecalls.h
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+

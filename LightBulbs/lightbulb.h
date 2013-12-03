@@ -1,5 +1,3 @@
-
-
 struct lightbulb{
 char code[5];
 int watts;
